@@ -94,6 +94,6 @@ def train(train_dir, model_save_path, n_neighbors=2, knn_algo='ball_tree', verbo
     if model_save_path is not None:
         with open(model_save_path, 'wb') as f:
             pickle.dump(knn_clf, f)
-        print("Training complete")
+        print("Training completed now")
     return knn_clf
 train("train_image","classifier/trained_knn_model.clf") # add path here
