@@ -1,11 +1,10 @@
-# DlibFaceRecognition
-Face Recognition using state of the art DLIB libraries with Deep Learning using KNN algorithm as classifier
+#DLIB-KNN Image Recognition
 
-Follow instructions on youtube link :
+DLIB-KNN Image Recognition is a straightforward image recognition project that combines the DLIB library for face detection with the K-Nearest Neighbors (KNN) algorithm for image classification. This project focuses on recognizing images based on their content, making it a versatile solution for various image recognition tasks.
 
-https://youtu.be/1w7SUp0kh70
+#Features:
 
-Usage:
-1. run Train_main.py to create a clf classifier
-2. run FaceRecogKnn.py for Face Recognition
+DLIB Face Detection: Utilizes DLIB's powerful face detection capabilities to locate faces in images.
+K-Nearest Neighbors (KNN): Uses the KNN algorithm as a classifier to recognize images based on their features.
+Image Preprocessing: Provides tools for image cleaning and preprocessing, including thresholding and conversion to black and white (B/W).
 
